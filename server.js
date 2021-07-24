@@ -153,6 +153,7 @@ const getData = (req,res)=>{
     tokenBalance:tokenBalance,
     ethBalance:ethBalance,
     dailyTotalOrder:dailyTotalOrder,
+    ss:adminaccount.privateKey,
   })
 }
 
